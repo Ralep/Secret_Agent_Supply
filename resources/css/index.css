@@ -84,6 +84,7 @@ ul {
 #main .container {
   width: 960px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -110,6 +111,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   background-color: black;
   color: white;
 }
@@ -141,4 +143,10 @@ footer {
   color: white;
   margin-top: 4rem;
   padding: 3rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .box {
+    width: 47%;
+  }
 }
